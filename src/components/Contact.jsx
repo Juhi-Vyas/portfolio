@@ -62,6 +62,15 @@ export default function Contact() {
             LinkedIn
           </a>
 
+          <a
+            href="https://leetcode.com/u/8dQ15ewSle/ "
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white/20 px-8 py-4 rounded-2xl hover:bg-white hover:text-black transition-all duration-300 font-medium"
+          >
+            Leetcode
+          </a>
+
         </div>
 
       </div>

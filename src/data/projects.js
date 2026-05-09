@@ -1,27 +1,38 @@
 export const projects = [
   {
     id: 1,
-    title: 'AI Chat Application',
-    category: 'AI',
+    title: "URL Shortener Web Application",
+    category: "Full Stack",
     description:
-      'AI-powered chat application using Gemini/OpenAI integration.',
-    image:
-      'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1200&auto=format&fit=crop',
-    tech: ['React', 'Node.js', 'MongoDB'],
-    github: 'https://github.com/',
-    live: 'https://vercel.com/',
+      "A scalable full-stack URL shortening platform with JWT authentication, analytics tracking, RESTful APIs, and real-time click monitoring built using the MERN stack.",
+    image: "/public/URL_shortener.png",
+    tech: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Tailwind CSS",
+    ],
+    github: "https://github.com/Juhi-Vyas/url_shortner_frontend",
+    live: "https://url-shortner-frontend-dun.vercel.app/",
   },
 
   {
     id: 2,
-    title: 'Amazon Clone',
-    category: 'E-Commerce',
+    title: "ProjectSync",
+    category: "Project Management",
     description:
-      'Modern e-commerce application with authentication and cart.',
-    image:
-      'https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1200&auto=format&fit=crop',
-    tech: ['React', 'Firebase'],
-    github: 'https://github.com/',
-    live: 'https://vercel.com/',
+      "A responsive project management web application featuring authentication, task management, filtering, reusable components, and a modern UI built with React and Tailwind CSS.",
+    image: "/public/projectSync.png",
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "Context API",
+      "JavaScript",
+      "Authentication",
+    ],
+    github: "https://github.com/Juhi-Vyas/project_sync",
+    live: "https://project-sync-ashen.vercel.app/",
   },
-]
+];

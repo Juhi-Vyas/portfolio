@@ -1,4 +1,6 @@
 export const skills = [
+  'HTML',
+  'CSS',
   'JavaScript',
   'React',
   'Next.js',
@@ -8,6 +10,5 @@ export const skills = [
   'Tailwind CSS',
   'Git',
   'GitHub',
-  'Postman',
   'Redux',
 ]
