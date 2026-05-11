@@ -39,7 +39,7 @@ export default function Hero() {
         <div className="flex justify-center">
           <div className="w-[350px] h-[350px] md:w-[450px] md:h-[450px] rounded-full bg-gradient-to-br from-purple-500 to-pink-500 p-3 shadow-[0_0_80px_rgba(168,85,247,0.4)]">
             <img
-              src="/profile2.jpg"
+              src="/profile_2.JPG"
               alt="profile"
               className="w-full h-full object-cover rounded-full"
             />
