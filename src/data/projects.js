@@ -1,6 +1,26 @@
 export const projects = [
-  
 
+  {
+    id: 3,
+    title: "Sphere",
+    category: "Interview Platform",
+    description:
+      "An advanced MERN stack interview platform featuring real-time video communication, integrated coding environment, practice mode, automated feedback system, and professional one-on-one interview workflows.",
+    image: "/sphere.png",
+    tech: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Stream",
+      "Inngest",
+      "JWT",
+      "Tailwind CSS",
+    ],
+    github: "https://github.com/Juhi-Vyas/sphere",
+    live: "https://sphere-one-omega.vercel.app/",
+  },
+  
   {
     id: 1,
     title: "URL Shortener Web Application",
@@ -29,26 +49,5 @@ export const projects = [
     ],
     github: "https://github.com/Juhi-Vyas/project_sync",
     live: "https://project-sync-ashen.vercel.app/",
-  },
-
-  {
-    id: 3,
-    title: "Sphere",
-    category: "Interview Platform",
-    description:
-      "An advanced MERN stack interview platform featuring real-time video communication, integrated coding environment, practice mode, automated feedback system, and professional one-on-one interview workflows.",
-    image: "/sphere.png",
-    tech: [
-      "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Stream",
-      "Inngest",
-      "JWT",
-      "Tailwind CSS",
-    ],
-    github: "https://github.com/Juhi-Vyas/sphere",
-    live: "https://sphere-one-omega.vercel.app/",
   },
 ];

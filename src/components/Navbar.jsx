@@ -30,7 +30,7 @@ export default function Navbar() {
         </div>
 
         <a
-          href="/resume.pdf"
+          href="/Juhi_MERN Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-purple-500 px-5 py-2 rounded-xl hover:bg-purple-600 transition"

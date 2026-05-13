@@ -1,24 +1,17 @@
 export default function Contact() {
   return (
-    <section
-      id="contact"
-      className="max-w-7xl mx-auto px-6 py-28"
-    >
+    <section id="contact" className="max-w-7xl mx-auto px-6 py-28">
       <div className="text-center mb-16">
-
         <p className="text-purple-400 font-semibold mb-3 tracking-wide uppercase">
           Contact Me
         </p>
 
-        <h2 className="text-4xl md:text-5xl font-bold mb-6">
-          Get In Touch
-        </h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-6">Get In Touch</h2>
 
         <p className="text-gray-300 text-lg leading-8 max-w-2xl mx-auto">
           Interested in collaborating, freelance work, or full-time
           opportunities? Feel free to connect with me.
         </p>
-
       </div>
 
       <div
@@ -34,11 +27,11 @@ export default function Contact() {
           shadow-[0_0_40px_rgba(168,85,247,0.15)]
         "
       >
-
         <div className="flex flex-wrap justify-center gap-6">
-
           <a
-            href="mailto:yourmail@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=juhi2781@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-purple-600 hover:bg-purple-700 px-8 py-4 rounded-2xl transition-all duration-300 font-medium"
           >
             Email Me
@@ -70,10 +63,8 @@ export default function Contact() {
           >
             Leetcode
           </a>
-
         </div>
-
       </div>
     </section>
-  )
+  );
 }

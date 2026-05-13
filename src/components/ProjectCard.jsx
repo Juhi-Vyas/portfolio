@@ -16,7 +16,7 @@ export default function ProjectCard({ project }) {
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-72 object-contain bg-black"
+        className="w-full h-72  bg-black"
       />
 
       <div className="p-8">
