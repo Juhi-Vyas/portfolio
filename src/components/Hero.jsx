@@ -11,12 +11,12 @@ export default function Hero() {
           </span>
 
           <h1 className="text-5xl md:text-7xl font-bold mt-8 leading-tight">
-            Hi, I'm <span className="text-purple-500">Juhi</span> 👋
+            Hi, I'm <span className="text-purple-500">Juhi</span>
           </h1>
 
           <p className="text-gray-300 text-lg md:text-2xl mt-6 leading-9 max-w-2xl">
             Building modern web apps and debugging life one console.log() at a
-            time 🚀
+            time
           </p>
 
           <div className="flex gap-5 mt-10 flex-wrap">
